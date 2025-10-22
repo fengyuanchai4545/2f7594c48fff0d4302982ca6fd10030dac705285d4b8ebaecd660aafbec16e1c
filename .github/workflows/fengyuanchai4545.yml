@@ -2,24 +2,27 @@ name: fengyuanchai4545
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 5/6 * * *'
+    - cron: '56 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fengyuanchai4545
         env:
-          pmq919: ${{ secrets.pmq919 }}
+          a75224: ${{ secrets.a75224 }}
         run: |
-          echo $pmq919 | jq -r .xx671 | /bin/bash
-          echo $wzs584 | jq -r .z6861 | /bin/bash
-          echo $rxvd81176 | jq -r .uoubo49097 | /bin/bash
-          echo $ra1747 | jq -r .mgr2 | /bin/bash
-          echo $f20607 | jq -r .honfi04 | /bin/bash
-          echo $afi47 | jq -r .nwvo2309 | /bin/bash
-          echo $n41534 | jq -r .vn916 | /bin/bash
-          echo $n37161 | jq -r .d8830 | /bin/bash
-          echo $eqptp22124 | jq -r .spq7 | /bin/bash
+          echo $a75224 | jq -r .drz58 | /bin/bash
+          echo $m92093 | jq -r .t67001 | /bin/bash
+          echo $fcw26446 | jq -r .n3 | /bin/bash
+          echo $hz9085 | jq -r .x4 | /bin/bash
+          echo $n8228 | jq -r .xxfeo18530 | /bin/bash
+          echo $rblpa81 | jq -r .c73 | /bin/bash
+          echo $bfsi05 | jq -r .ect40 | /bin/bash
+          echo $mfyc185 | jq -r .brzm95 | /bin/bash
+          echo $a2 | jq -r .ndj5519 | /bin/bash
+          echo $d59429 | jq -r .fu3008 | /bin/bash
+          echo $nivd3 | jq -r .mkfdj6993 | /bin/bash
+          echo $qqh1 | jq -r .pfq44180 | /bin/bash
+          echo $h8210 | jq -r .jbpe9 | /bin/bash
 
