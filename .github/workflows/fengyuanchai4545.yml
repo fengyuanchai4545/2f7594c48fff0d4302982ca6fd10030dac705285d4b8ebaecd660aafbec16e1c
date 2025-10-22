@@ -1,9 +1,9 @@
 name: fengyuanchai4545
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 5/6 * * *'
-
+    - cron: '33 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: fengyuanchai4545
         env:
-          bfdm12: ${{ secrets.bfdm12 }}
+          jfjh2059: ${{ secrets.jfjh2059 }}
         run: |
-          echo $bfdm12 | jq -r .euzw4597 | /bin/bash
-          echo $nw7847 | jq -r .n53 | /bin/bash
-          echo $f77 | jq -r .lulbu28 | /bin/bash
-          echo $bl98 | jq -r .gdf2 | /bin/bash
-          echo $lyd4697 | jq -r .x6 | /bin/bash
-          echo $szfp0 | jq -r .bvdog31 | /bin/bash
-          echo $aa8 | jq -r .kn4779 | /bin/bash
-          echo $vihf1616 | jq -r .qy5 | /bin/bash
-          echo $xqu5202 | jq -r .klyj07095 | /bin/bash
+          echo $jfjh2059 | jq -r .gv430 | /bin/bash
+          echo $xaoy52394 | jq -r .cmwj11671 | /bin/bash
+          echo $cyk6 | jq -r .cjsg7783 | /bin/bash
+          echo $t54861 | jq -r .g21 | /bin/bash
+          echo $lv4 | jq -r .zbdim35 | /bin/bash
+          echo $ef50373 | jq -r .s12 | /bin/bash
+          echo $upq55 | jq -r .hake4600 | /bin/bash
+          echo $tncdg2368 | jq -r .hozs62 | /bin/bash
+          echo $q1 | jq -r .oaq57 | /bin/bash
+          echo $mnt18 | jq -r .sfjv7309 | /bin/bash
+          echo $kq47 | jq -r .cdfz2 | /bin/bash
+          echo $nqh54312 | jq -r .ps6 | /bin/bash
 
